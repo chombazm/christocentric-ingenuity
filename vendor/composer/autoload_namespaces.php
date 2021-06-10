@@ -7,7 +7,9 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Sabberworm\\CSS' => array($vendorDir . '/sabberworm/php-css-parser/lib'),
+    'Mockery' => array($vendorDir . '/mockery/mockery/library'),
     'Kris\\LaravelFormBuilder' => array($vendorDir . '/kris/laravel-form-builder/src'),
     'HTMLPurifier' => array($vendorDir . '/ezyang/htmlpurifier/library'),
     'Google_Service_' => array($vendorDir . '/google/apiclient-services/src'),
+    'Barryvdh' => array($vendorDir . '/barryvdh/reflection-docblock/src'),
 );
